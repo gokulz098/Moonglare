@@ -1,0 +1,50 @@
+body{
+    background-color:  rgb(29, 27, 27);
+}
+
+p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 17px;
+}
+
+.signup-box{
+    background-color: rgb(5, 0, 0);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 500PX;
+    height: 500PX;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border-radius: 25px;
+    border-width: 5px;
+    border-color: aliceblue;
+}
+
+.box{
+    width: 300px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.remember-box{
+   display: flex;
+   color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -200px;
+    font-size: 14px;
+}
+
+button{
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: -120px;
+    
+}
