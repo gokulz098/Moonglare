@@ -142,8 +142,11 @@ a{
 
 .character {
     background-color: rgb(255, 255, 255);
-    border-radius: 1000%;
-    width: 100%;
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
 }
 .character-name{
     color: rgb(255, 255, 255);
